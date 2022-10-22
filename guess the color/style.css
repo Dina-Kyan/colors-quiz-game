@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+.color {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+button {
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.color-blocks {
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 306px;
+}
+
+.color-blocks .block {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-board {
+    margin: 10px 0;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-board span {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.wrong-value {
+    color: red;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.432);
+}
+
+.right-value {
+    color: green;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.432);
+}
+
+.buttons-other {
+    margin: 10px;
+}
+
+.buttons-other .next {
+    width: 120px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+    display: none;
+}
